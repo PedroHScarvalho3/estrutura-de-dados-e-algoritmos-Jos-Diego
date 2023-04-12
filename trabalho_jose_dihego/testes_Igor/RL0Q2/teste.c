@@ -21,7 +21,7 @@ int main(){
   int i = 0, i_str = 0, i_ponto = 0, i_number = 0, cont = 0, valor_i = 0, j = 0, k = 0;
 
   while(fgets(linha, 255, arquivo_in) != NULL){
-    // printf("******1*****\n");
+    printf("******1*****\n");
     while(linha[i] != '\0'){
       if(linha[i] > 96 && linha[i] < 123){
       for(; linha[i] != ' '; i++, i_str++){
